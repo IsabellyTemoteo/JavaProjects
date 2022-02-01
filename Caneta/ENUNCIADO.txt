@@ -1,0 +1,14 @@
+Crie o diagrama da classe Caneta onde as características desta caneta podem ser descritas pelos seguintes atributos privados cor, ponta (0.5, 0.7 etc) e caneta tampada.
+
+Além disso, esta classe Caneta deve possuir os seguintes métodos
+
+
+métodos de acesso get e set para todos os atributos privados
+imprimir seu status (tampada ou destampada juntamente com a cor e o tamanho de sua ponta)
+tampar
+destampar
+escrever (Note que uma caneta não pode escrever se estiver tampada).
+
+Implemente o diagrama criado em Java.
+
+Envie o diagrama e a implementação em um arquivo compactado (zip).

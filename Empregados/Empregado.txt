@@ -1,0 +1,44 @@
+//*A fim de representar empregados em uma firma, crie uma classe chamada Empregado que inclui as três informações a seguir como atributos privados:
+
+// um primeiro nome,
+// um sobrenome, e
+// um salário mensal.
+
+package empregadoss;
+//Forneça um método set e get para cada atributo. Se o salário mensal não for positivo, configure-o como 0.0. Crie duas instâncias da classe e exiba o salário anual de cada
+//instância. Implemente um método que dê a cada empregado um aumento de 10%. Exiba novamente o salário anual de cada empregado.
+
+/**
+ *
+ * @author Isabelly
+ */
+
+public class Empregados{
+    private String nome;
+    private String sobrenome;
+    private float salario;
+
+    public String getNome() {
+        return nome;
+    }
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    public String getSobrenome() {
+        return sobrenome;
+    }
+
+    public void setMarca(String sobrenome) {
+        this.sobrenome = sobrenome;
+    }
+
+     public double getSalario() {
+        return salario;
+    }
+    public void setSalario(float salario) {
+        if(salario>0){
+        this.salario = salario;}
+        else{ 
+        this.salario = 0; }
+    }
+}
